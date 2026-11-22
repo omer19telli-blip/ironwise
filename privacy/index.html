@@ -13,7 +13,7 @@
 <body><main>
 <nav><a href="../">Help</a><a href="../privacy/" aria-current="page">Privacy Policy</a><a href="../terms/">Terms of Use</a></nav>
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated 16 November 2026</p>
+<p class="updated">Last updated 21 November 2026</p>
 
 <div class="card"><p><strong>In short:</strong> we collect only what the app needs to coach you. We don't show ads, don't track you across apps or websites, and never sell your data. Your Apple Health data is used only to coach you. When you use the AI features, the data they need goes to OpenAI to write the answer; OpenAI doesn't use it to train its models.</p></div>
 
@@ -25,7 +25,7 @@
 <li><strong>Account:</strong> your email address (with Sign in with Apple, it can be Apple's private relay address) and an account ID.</li>
 <li><strong>Training:</strong> your setup answers (goal, experience, schedule, preferred split, limitations or injuries you type), your gym's equipment and machines, your plan, workouts (weights, reps, how each set felt), records, lift goals, cardio sessions and weekly reports.</li>
 <li><strong>Readiness check-ins:</strong> sleep hours, HRV, readiness score, energy and sore areas you enter or that come from Apple Health, and your choice to train lighter or as planned.</li>
-<li><strong>Apple Health (only with your permission):</strong> we <em>read</em> sleep, heart rate variability, resting heart rate, workouts and body weight. We never write to Apple Health.</li>
+<li><strong>Apple Health (only with your permission):</strong> we <em>read</em> sleep, heart rate variability, heart rate, workouts, body weight, height, sex and date of birth. If you turn on "Save workouts to Apple Health", we <em>write</em> your finished lifting sessions (type, start and end time) as workouts.</li>
 <li><strong>Nutrition:</strong> sex, birth year, height, weight, activity level and any diet notes or health conditions you tell the coach for your targets; the meals you log (foods, portions, calories, protein, carbs, fat, fibre).</li>
 <li><strong>Coach chat:</strong> your messages to the AI coach and its answers.</li>
 <li><strong>Meal photos:</strong> sent for one estimate only (see below). We don't store them.</li>
@@ -48,11 +48,19 @@
 </ul>
 <p>Under OpenAI's API terms, this data is <strong>not used to train OpenAI's models</strong>. OpenAI may keep it for up to 30 days to detect abuse, then deletes it. We ask OpenAI not to store the conversations (<code>store: false</code>). Your OpenAI-bound requests go through our own server, so OpenAI never receives your email address. You can use the app without the AI features.</p>
 
+<h2>Strava, Oura and Whoop (only if you connect them)</h2>
+<p>In Profile → Connections you can connect these services. You sign in on the service's own page; Ironwise never sees your password. Our server keeps the access keys the service gives us and you can disconnect at any time, which deletes them.</p>
+<ul>
+<li><strong>Strava:</strong> after each finished workout we send Strava a "Weight Training" activity: the workout's name, start time, length and each exercise with its weights and reps. You can turn posting off.</li>
+<li><strong>Oura / Whoop:</strong> we read only your daily Oura Readiness score or Whoop Recovery score, to fill the readiness check-in. Nothing is sent to them.</li>
+</ul>
+<p>What Strava, Oura and Whoop do with your data is covered by their own privacy policies.</p>
+
 <h2>Apple Health data</h2>
-<p>Data from Apple Health is used only to coach you (readiness, cardio, body weight trends, nutrition targets). It is never used for advertising or data mining, never sold, and never shared with anyone except OpenAI as described above when you use the AI coach, which you agree to in the app. You can stop access at any time in Settings → Health → Data Access & Devices.</p>
+<p>Data from Apple Health is used only to coach you (readiness, cardio, body weight trends, nutrition targets). It is never used for advertising or data mining, never sold, and never shared with anyone except OpenAI as described above when you use the AI coach, which you agree to in the app. Apple Health data is never sent to Strava, Oura or Whoop. You can stop access at any time in Settings → Health → Data Access & Devices.</p>
 
 <h2>How long we keep it</h2>
-<p>Until you delete your account. <strong>Profile → Delete account</strong> deletes your account and all your data from our servers immediately. Signing out erases the copy on that iPhone. Data held by OpenAI is deleted within 30 days.</p>
+<p>Until you delete your account. <strong>Profile → Delete account</strong> deletes your account and all your data from our servers immediately, including Strava, Oura and Whoop access keys. Signing out erases the copy on that iPhone. Data held by OpenAI is deleted within 30 days.</p>
 
 <h2>Your rights</h2>
 <p>Depending on where you live (for example under the EU/UK GDPR, Türkiye's KVKK or California's CCPA), you can ask to access, correct, export or delete your data, or object to or restrict how it's used. Most of this you can do in the app; for anything else, email <a href="mailto:ahmetomertelli@icloud.com">ahmetomertelli@icloud.com</a>. You can also complain to your local data protection authority. The legal basis for processing is our contract with you (to provide the app) and, for health data and the AI features, your explicit consent, which you can withdraw at any time.</p>
